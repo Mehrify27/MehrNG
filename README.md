@@ -4,65 +4,48 @@
 
 ---
 
-## 🌟 Key Features
+### 🇮🇷 معرفی به زبان فارسی (Persian Description)
 
-* **🎨 Skeuomorphic 3D UI:** 
-  - **Embossed Server Cards:** Custom 3D bevel cards featuring a light highlight on the top-left and shadow on the bottom-right for a tactile, physical look.
-  - **Recessed Protocol Badges:** Sunken acronym badges (`SS`, `VL`, `VM`, etc.) matching the skeuomorphic depth language.
-  - **Dynamic Theme Adaptability:** Full day/night mode support. The app transforms into a clean, bright iOS-style light theme during the day, and shifts to a deep premium slate theme at night.
-* **🦅 Branded Wings AppBar:** Re-themed Toolbar featuring the signature symmetrical wings pair on the left and a feathered emblem attached to the centered "MehrNG" title.
-* **🔄 Auto-Subscription Sync:** Automatic, encrypted background updates from your dedicated Worker endpoint (`https://broad-cake-8d0c.mehrshop16.workers.dev/sub`) on first launch and app resume.
-* **📶 Real Latency Testing (Real Ping):** Measures real HTTP download delay through the active V2Ray core proxy instead of simple TCP handshakes, giving you accurate connection quality statistics.
-* **📱 iPhone Elastic Overscroll:** A custom, physics-based elastic drag effect on the configuration list matching the tactile feel of iOS scroll boundaries.
-* **🌎 Country Geolocation Badges:** Dynamic flag emoji parsing from configuration remarks and background download of high-quality national flag badges.
+برنامه **MehrNG** یک کلاینت پیشرفته، اختصاصی و بسیار زیبا برای پروتکل‌های V2Ray و Xray در سیستم‌عامل اندروید است. این اپلیکیشن با بازطراحی کامل رابط کاربری به صورت سه بعدی (Skeuomorphic)، تجربه کاربری فوق‌العاده نرم و روانی را ارائه می‌دهد.
 
----
-
-## 🚀 Getting Started
-
-### 1. Download & Installation
-Go to the **[Releases](https://github.com/PooyaMaleki/MehrNG-/releases)** section and download the latest compiled `MehrNG.apk`.
-
-### 2. Add Subscription
-The app comes pre-configured with the default **MehrNetVPN** subscription node list. To update:
-1. Tap the **Sync** button at the top-right of the server card list.
-2. The app will fetch the latest VLESS/Shadowsocks configurations automatically.
+#### ویژگی‌های کلیدی و تغییرات نسخه جدید:
+* **🎨 طراحی سه بعدی و مدرن (3D UI):** کارت‌های سرور برجسته همراه با سایه‌زنی‌های طبیعی و نشان‌های فرورفته سه بعدی برای پروتکل‌ها که ظاهری لوکس به برنامه داده است.
+* **☀️ پشتیبانی از تم روشن و تاریک (Day/Night Theme):** بهینه‌سازی کامل رنگ‌بندی برنامه به طوری که در طول روز برنامه دارای تم روشن، بسیار تمیز و جذاب (طرح iOS) شده و در شب به تم تاریک تیره تغییر می‌یابد.
+* **🦅 نوار ابزار بال‌های شاهین (Wings AppBar):** قرارگیری لوگوی بال‌های متقارن در سمت چپ و لوگوی اختصاصی متصل به عنوان MehrNG در وسط تسک‌بار.
+* **📶 تست پینگ واقعی (Real Ping):** محاسبه تاخیر واقعی دانلود صفحات وب از درون هسته فیلترشکن به جای تست‌های ساده TCP، جهت ارائه آمار دقیق کیفیت سرورها.
+* **📱 اسکرول کشسانی آیفون (Elastic Overscroll):** افکت ارتجاعی و روان هنگام کشیدن لیست سرورها به انتها مشابه حرکت اسکرول در سیستم‌عامل iOS.
+* **🔄 همگام‌سازی خودکار ساب‌اسکریپشن:** آپدیت و دریافت خودکار سرورهای جدید در اولین ورود و باز کردن مجدد برنامه.
+* **🌎 پرچم کشورهای سرور:** شناسایی خودکار نام و پرچم کشورها و دانلود تصاویر باکیفیت پرچم برای نمایش در کنار هر سرور.
 
 ---
 
-## 🛠️ Development & Build Guide
+### 🇬🇧 English Description
 
-### Prerequisites
-* Android Studio (Koala or newer)
-* Android SDK (API 24+)
-* JDK 17+
+**MehrNG** is a tailored, high-performance, and beautifully designed client for V2Ray & Xray on Android. It introduces a premium visual style combined with optimized connection features.
 
-### Compiling from Command Line
-You can build the debug or release APK directly using the Gradle wrapper:
+#### Key Features & Changelog:
+* **🎨 Skeuomorphic 3D UI:** Custom embossed cards with natural top-left lighting highlights and bottom-right shadows, alongside recessed protocol badges.
+* **☀️ Day/Night Theme Support:** Refactored colors for a clean, bright Light Mode background during the day and a premium dark mode at night.
+* **🦅 Falcon Wings AppBar:** Signature wings layout in the Toolbar, featuring symmetrical wings on the left and a feathered emblem in the center.
+* **📶 Real Latency Testing (Real Ping):** Measures actual HTTP payload delay through the background proxy core for highly accurate speed results.
+* **📱 iOS-style Elastic Overscroll:** A tactile, spring-loaded drag physics effect when reaching the boundaries of the server list.
+* **🔄 Dynamic Subscription Updates:** Seamless server fetching and caching at app startup and resume.
+* **🌎 Geolocation Flags:** Automated flag emoji parsing from server remarks and local caching of high-resolution country flag assets.
 
-```powershell
-# Compile F-Droid Release APK
-.\gradlew assembleFdroidRelease
+---
 
-# Compile Play Store Release APK
-.\gradlew assemblePlaystoreRelease
-```
+## 📥 دانلود برنامه (Download App)
 
-The output APK will be generated under `app/build/outputs/apk/`.
+برای دانلود آخرین نسخه نصب شده فایل اندروید (APK)، به بخش ریلیزهای گیت‌هاب بروید:
+
+👉 **[GitHub Releases / بخش ریلیزها](https://github.com/PooyaMaleki/MehrNG-/releases)**
 
 ---
 
 ## 🎁 Support & Donation (حمایت مالی)
 
-If you find this project helpful and want to support its active development, you can support us by donating cryptocurrency:
+اگر مایل به حمایت مالی از توسعه فعال این پروژه هستید، می‌توانید از آدرس ولت‌های رمزارز زیر استفاده کنید:
 
 * **Tether (USDT - TRC20):** `YOUR_USDT_TRC20_WALLET_ADDRESS`
 * **Bitcoin (BTC):** `YOUR_BTC_WALLET_ADDRESS`
 * **Toncoin (TON):** `YOUR_TON_WALLET_ADDRESS`
-
-*(Open the "Support Us" dialog inside the app to copy these addresses with a single tap!)*
-
----
-
-## 📄 License
-This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
