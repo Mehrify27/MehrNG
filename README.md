@@ -14,8 +14,7 @@
 * **🦅 نوار ابزار بال‌های شاهین (Wings AppBar):** قرارگیری لوگوی بال‌های متقارن در سمت چپ و لوگوی اختصاصی متصل به عنوان MehrNG در وسط تسک‌بار.
 * **📶 تست پینگ واقعی (Real Ping):** محاسبه تاخیر واقعی دانلود صفحات وب از درون هسته فیلترشکن به جای تست‌های ساده TCP، جهت ارائه آمار دقیق کیفیت سرورها.
 * **📱 اسکرول کشسانی آیفون (Elastic Overscroll):** افکت ارتجاعی و روان هنگام کشیدن لیست سرورها به انتها مشابه حرکت اسکرول در سیستم‌عامل iOS.
-* **🔄 همگام‌سازی خودکار ساب‌اسکریپشن:** آپدیت و دریافت خودکار سرورهای جدید در اولین ورود و باز کردن مجدد برنامه.
-* **🌎 پرچم کشورهای سرور:** شناسایی خودکار نام و پرچم کشورها و دانلود تصاویر باکیفیت پرچم برای نمایش در کنار هر سرور.
+* **🔄 کانفیگ‌های نامحدود و پرسرعت:** دریافت خودکار کانفیگ‌های نامحدود و پرسرعت که هر ساعت آپدیت می‌شوند.
 
 ---
 
@@ -29,8 +28,7 @@
 * **🦅 Falcon Wings AppBar:** Signature wings layout in the Toolbar, featuring symmetrical wings on the left and a feathered emblem in the center.
 * **📶 Real Latency Testing (Real Ping):** Measures actual HTTP payload delay through the background proxy core for highly accurate speed results.
 * **📱 iOS-style Elastic Overscroll:** A tactile, spring-loaded drag physics effect when reaching the boundaries of the server list.
-* **🔄 Dynamic Subscription Updates:** Seamless server fetching and caching at app startup and resume.
-* **🌎 Geolocation Flags:** Automated flag emoji parsing from server remarks and local caching of high-resolution country flag assets.
+* **🔄 Unlimited High-Speed Configs:** Automatically updated and refreshed hourly.
 
 ---
 
