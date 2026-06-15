@@ -46,5 +46,5 @@
 
 اگر مایل به حمایت مالی از توسعه فعال این پروژه هستید، می‌توانید از آدرس ولت‌های زیر استفاده کنید:
 
-* **Tether/TRX (TRC20):** `UQANNJRhTTTWnKzZufpWQzCGgiHIS86tqlXNXMLgRzOR712q`
+* **Tether/TRX (TRC20):** `TSUSBkxJJ1MuyqPeWLwbtZBNMQv8NwrMr9`
 * **Ethereum (ETH - ERC20):** `0xd5E8556adb9f33b2eA7faa4fC3be221b40444C9b`
